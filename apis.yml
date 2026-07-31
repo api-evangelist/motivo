@@ -1,8 +1,31 @@
 aid: motivo
 name: Motivo
-description: Motivo is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Motivo is the leading managed clinical supervision platform for behavioral
+  health organizations. It connects pre-licensed and post-graduate mental
+  health professionals with 1,500+ vetted clinical supervisors across all 50
+  states, enabling organizations to expand their workforce, reduce burnout, and
+  meet licensure requirements. The fully-managed platform handles supervisor
+  vetting, compliance and documentation, scheduling, HIPAA-compliant video
+  sessions, and payment processing, and includes group supervision, peer
+  consultation, webinars, and workforce-development resources. Motivo serves
+  behavioral health centers, treatment facilities, health plans, and digital
+  health companies. As of this profile Motivo publishes no public developer API,
+  SDK, or developer portal; its platform is delivered as a managed SaaS product
+  and it consumes third-party APIs (e.g. Google Calendar) internally.
 url: https://raw.githubusercontent.com/api-evangelist/motivo/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://motivo-marketing.imgix.net/static/og-default.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Behavioral Health
+- Mental Health
+- Clinical Supervision
+- Healthcare Workforce
+- Telehealth
+- HIPAA
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,22 @@ maintainers:
 common:
 - type: Website
   url: https://motivohealth.com/
+- type: About
+  url: https://motivohealth.com/about
+- type: Support
+  url: https://motivohealth.com/help
+- type: Blog
+  url: https://motivohealth.com/news
+- type: Login
+  url: https://app.motivohealth.com/
+- type: TermsOfService
+  url: https://motivohealth.com/terms
+- type: PrivacyPolicy
+  url: https://motivohealth.com/privacy
+- type: DomainSecurity
+  url: security/motivo-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
